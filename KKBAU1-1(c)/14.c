@@ -16,5 +16,6 @@ int main(void)
         sum+=rem;
     }
 
+    printf("Sum of Digits: %d\n", sum);
 return 0;
 }
