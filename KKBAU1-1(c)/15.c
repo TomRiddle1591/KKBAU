@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int pro = 0, num, n_Num, rem;
+    int pro = 1, num, n_Num, rem;
     printf("Enter your Number: ");
     scanf("%d", &num);
 
