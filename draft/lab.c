@@ -75,13 +75,23 @@ void Div(float m, float n)
 */
 
 
-
+//finding e^x
 
 #include<stdio.h>
 #include<math.h>
 
 int main(void)
 {
+    float nN, num, x, fact = 0;
+    printf("Enter Number: ");
+    scanf("%f", &num);
+    do{
+        printf("Enter Power: ");
+        scanf("%f", &x);
+    }
+    while(x < 0);
     
+    nN = pow(num, x);
+    printf("%.2f\n", nN);
 return 0;
 }
