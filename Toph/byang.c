@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void byang(int first, int two);
+void byang(int one, int two);
 
 int main(void)
 {
@@ -14,8 +14,10 @@ int main(void)
 }
 
 
-void byang(int first, int two)
+void byang(int one, int two)
 {
-    
-    printf("%d %d\nTwo Numbers\n", first, two);
+    int n1 = one;
+    int n2 = two;
+
+    while()
 }
