@@ -19,5 +19,5 @@ void byang(int one, int two)
     int n1 = one;
     int n2 = two;
 
-    while()
+    while(one != 0)
 }
