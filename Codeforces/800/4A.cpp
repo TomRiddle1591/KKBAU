@@ -2,7 +2,13 @@
 
 int main(void)
 {
+    int w;
+    std::cin >> w;
 
-    std::cout << "Helloo, This is my First C++ Source Code!\n";
+    if(w > 2 && w % 2 == 0)
+    {std::cout << "YES\n";}
+    else
+    {std::cout << "NO\n";}
+
     return 0;
 }
