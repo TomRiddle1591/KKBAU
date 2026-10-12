@@ -14,7 +14,7 @@ int main(void)
         if(count >= 2){result++;}
     }
 
-    printf("Confirm: %d\n", result);
+    printf("%d\n", result);
 
 return 0;
 }
