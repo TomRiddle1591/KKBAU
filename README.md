@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Joul Jalal</h1>
-<h3 align="center">A 1st year student of KKBAU.Still learning about Programming Language</h3>
+<h3 align="center">A 2nd year student of KKBAU. Still learning about Programming Language</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tomriddle1591&label=Profile%20views&color=0e75b6&style=flat" alt="tomriddle1591" /> </p>
 
