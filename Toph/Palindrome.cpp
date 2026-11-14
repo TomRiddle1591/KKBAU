@@ -1,11 +1,14 @@
 #include<iostream>
+#include<cstdio>
+#include<string>
 using namespace std;
 
 int main(void){
-    string word;
-    cin >> word;
+
+    string word;// cant convert string to char
+    fgets(word, sizeof(word), stdin);
     
-    int letters = word.length();
+    int letters = sizeof(word);
 
     string new_word;
     for(int i = letters-1; i >= 0; i--){
