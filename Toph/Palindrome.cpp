@@ -13,5 +13,6 @@ int main(void){
     }
 
     if(new_word == word){cout << "Yes\n";}
+    else{cout << "Nothing\n";}
 return 0;
 }
