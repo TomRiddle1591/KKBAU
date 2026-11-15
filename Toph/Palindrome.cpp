@@ -27,14 +27,13 @@ int main(void){
 
     string new_word;
     int letters = word.length();
-    
-    for(int i = letters - 1, count = 0; i >= 0; i--, count++){
-        new_word[count] = word[i];
-    }
 
-    for(int j = 0; j < letters; j++){
-        cout << new_word[j] << " ";
+
+    for(int i = letters - 1; i >= 0; i--){
+        new_word.push_back(word[i]); // Automatically grows and appends
     }
+    cout << new_word;
+
     cout << "\n";
 return 0;
 }
